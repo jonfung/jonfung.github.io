@@ -1,52 +1,50 @@
-@import url(https://fonts.googleapis.com/css?family=Inconsolata);
-
-#frontpage {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 50vh;
+* { padding:0;
+  margin:0;
 }
 
-.intropanel {
-  position: relative;
-  width: 33%;
-  height: auto;
+a:link {color:#666;}
+a:visited {color:#666;}
+a:hover {color:#888;}
+
+.nav {
+  font-family: georgia, serif, times, arial;
+  position: fixed; 
+  background:transparent;
+  text-align: right;
+  height: 100vh;
+  width: 275px; 
+  margin-top: 0px;
+  font-size: 12px;
+  margin-left: 0px; 
+  color: #666;
 }
 
-#namepanel {
-  color: #A44A3F;
-  font-size: 65px;
-  justify-content: flex-end;
-  display: inline-block;
-  position: relative;
+#name {
+  margin-top: 5%;
 }
 
-#picpanel {
-  height: 25%;
-  overflow: hidden;
+#intro {
+  width: 100%;
+  display: inline-flex;
 }
-
-body {
-  font-family: 'Inconsolata';
-  font-weight: 400;
-  color: whitesmoke;
-/*  background-color: #94A89A;
-*/}
 
 #headshot {
+  position: relative;
   display: inline-block;
   width: 100px;
   height: 100px;
-  position: relative;
   background-image: url('./assets/jfung.png');
   background-size: 110px;
   background-position: center;
   border-radius: 100px;
+  right: 0;
+  margin: 5%;
 }
 
-#name{
- display: inline-block;
- position: relative;
- text-align: right;
+.content {
+  width: 800px;
+  margin-left: 300px;
+  font-family: georgia, serif, times, arial;
+  text-align: justify;
+  margin-bottom: 0px;
 }
-
