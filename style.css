@@ -1,0 +1,52 @@
+@import url(https://fonts.googleapis.com/css?family=Inconsolata);
+
+#frontpage {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 50vh;
+}
+
+.intropanel {
+  position: relative;
+  width: 33%;
+  height: auto;
+}
+
+#namepanel {
+  color: #A44A3F;
+  font-size: 65px;
+  justify-content: flex-end;
+  display: inline-block;
+  position: relative;
+}
+
+#picpanel {
+  height: 25%;
+  overflow: hidden;
+}
+
+body {
+  font-family: 'Inconsolata';
+  font-weight: 400;
+  color: whitesmoke;
+/*  background-color: #94A89A;
+*/}
+
+#headshot {
+  display: inline-block;
+  width: 100px;
+  height: 100px;
+  position: relative;
+  background-image: url('./assets/jfung.png');
+  background-size: 110px;
+  background-position: center;
+  border-radius: 100px;
+}
+
+#name{
+ display: inline-block;
+ position: relative;
+ text-align: right;
+}
+
