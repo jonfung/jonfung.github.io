@@ -1,0 +1,100 @@
+* { padding:0;
+  margin:0;
+}
+
+a:link {color:#666;}
+a:visited {color:#666;}
+a:hover {color:#888;}
+
+
+.nav {
+/*  font-family: georgia, serif, times, arial;
+*/  
+  font-family: 'Montserrat';
+  position: fixed; 
+  background:transparent;
+  text-align: right;
+  height: 100vh;
+  width: 225px; 
+  margin-top: 0px;
+  font-size: 12px;
+  margin-left: 0px; 
+  color: #666;
+}
+
+#intro {
+  width: 100%
+  height: auto;
+  display: inline;
+  font-size: 17px;
+}
+
+#headshot {
+  position: absolute;
+  display: inline-block;
+  width: 100px;
+  height: 100px;
+  background-image: url('./assets/jfung.png');
+  background-size: 110px;
+  background-position: center;
+  border-radius: 100px;
+  right: 0;
+  margin: 5%;
+  margin-top: 100px;
+  z-index: 1;
+  left: 0px;
+}
+
+.header {
+  width: 100%;
+  height: 40px;
+}
+
+.header h1 {
+  position: relative;
+  bottom: 0px;
+  font-size: 22px;
+  text-align: left;
+  margin-left: 0px;
+  margin-bottom: 5px;
+  color: #BD2031;
+}
+
+.content {
+  font-size: 13px;
+  margin-bottom: 100px;
+}
+
+.content p {
+  line-height: 20px;
+}
+
+.content b {
+  color: #c0392b;
+  font-weight: bold;
+  font-size: 19px;
+}
+
+.content h2 {
+  color: #BD2031;
+  font-size: 16px;
+}
+
+.content a{
+  color: #CC3412;
+  font-size: 16px;
+}
+
+.bottombuffer {
+  height: 100vh;
+}
+
+
+.container {
+  width: 700px;
+  margin-left: 250px;
+  margin-top:20px;
+  font-family: 'Montserrat';
+  text-align: justify;
+  margin-bottom: 0px;
+}
