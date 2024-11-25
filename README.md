@@ -18,5 +18,5 @@ I think you're background makes you a really good fit, and even if you're not in
 
 Please shoot me an email at markus@tplus.cx
 
-i'm also on twitter
-https://x.com/markus_0_
+i'm also on [twitter]
+(https://x.com/markus_0_)
