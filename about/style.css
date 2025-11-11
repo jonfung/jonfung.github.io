@@ -1,7 +1,16 @@
 #content p {
     padding: 20px 30px 20px 0px;
+    flex: 1;
 }
 
 #card {
     max-width: 800px;
+}
+
+.containerAlignMid {
+    gap: 20px;
+}
+
+.containerAlignMid img {
+    flex-shrink: 0;
 }
